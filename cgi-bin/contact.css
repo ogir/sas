@@ -1,0 +1,98 @@
+h3 {
+margin:0 15px 0 15px;
+font-family:optima, futura, palatino, "trebuchet MS",  sans-serif;
+color:#a99999;
+text-align:center;
+}
+
+form {
+width:505px;
+margin:15px 0 0 95px;
+color:#eddddd;
+background:none;
+border:2px solid #551111;
+border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -o-border-radius:5px;
+}
+
+#forminfo {
+width:200px;
+padding:0 0 10px 0;
+margin:10px 10px 10px 10px;
+background-color:#211111;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#251e1e), to(#000000)); /* Saf4+, Chrome */
+background-image: -webkit-linear-gradient(top, #251e1e, #000000); /* Chrome 10+, Saf5.1+, iOS 5+ */
+background-image:    -moz-linear-gradient(top, #251e1e, #000000); /* FF3.6 */
+background-image:     -ms-linear-gradient(top, #251e1e, #000000); /* IE10 */
+background-image:      -o-linear-gradient(top, #251e1e, #000000); /* Opera 11.10+ */
+background-image:         linear-gradient(top, #251e1e, #000000);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#251e1e', EndColorStr='#000000'); /* IE6-IE9 */
+border:1px solid #331111;
+float:left;
+}
+
+input.info {
+width:180px;
+margin:10px 7px 5px 7px;
+background:#ededdd;
+}
+
+#formmsg {
+width:270px;
+margin:10px 0 10px 10px;
+background-color:#211111;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#251e1e), to(#000000)); /* Saf4+, Chrome */
+background-image: -webkit-linear-gradient(top, #251e1e, #000000); /* Chrome 10+, Saf5.1+, iOS 5+ */
+background-image:    -moz-linear-gradient(top, #251e1e, #000000); /* FF3.6 */
+background-image:     -ms-linear-gradient(top, #251e1e, #000000); /* IE10 */
+background-image:      -o-linear-gradient(top, #251e1e, #000000); /* Opera 11.10+ */
+background-image:         linear-gradient(top, #251e1e, #000000);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#251e1e', EndColorStr='#000000'); /* IE6-IE9 */
+border:1px solid #331111;
+}
+
+#formmsg textarea.message {
+resize:none;
+width:250px;
+height:83px;
+margin:10px 7px 11px 7px;
+background:#ededdd;
+}
+
+#buttons {
+position:relative;
+margin:10px 10px 10px 380px;
+}
+
+#content h1 {
+display:inline;
+margin-left:10px;
+margin-right:auto;
+font-family:futura, optima, "Mona Lisa Solid ITC TT" sans-serif;
+font-size:2em;
+/*font-family:optima, futura, palatino, "trebuchet MS",  sans-serif;*/
+color:#dd1111;
+}
+
+#content p {
+display:block;
+width:340px;
+margin-left:20px;
+margin-top:15px;
+font-family:futura, optima, "Mona Lisa Solid ITC TT" sans-serif;
+color:#a99999;
+text-align:left;
+}
+
+#content a {
+text-decoration:none;
+}
+
+#content img.eclipse {
+margin:10px 171px 0 171px;
+width:358px;
+height:330px;
+border:1px solid #330000;
+}

@@ -1,0 +1,131 @@
+#content {
+position:relative;
+margin:0 50px 15px 50px;
+padding-bottom:10px;
+height:auto;
+width:90%;
+background:none;
+}
+
+table, td
+{
+    border-color: #600;
+    border-style: solid;
+}
+
+table
+{
+    border-width: 0 0 1px 1px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-top:15px;
+}
+
+td
+{
+    margin: 0;
+    padding: 4px;
+    border-width: 1px 1px 0 0;
+    background-color: #FFC;
+    color:#ee0000;
+    font-size:1em;
+}
+
+h1 {
+dislay:block;
+margin-left:auto;
+margin-right:auto;
+margin-top:10px;
+margin-bottom:0;
+/*font-family:"Mona Lisa Solid ITC TT";*/
+color:#dd1111;
+text-align:center;
+}
+
+#content img.brunch {
+display:block;
+margin:25px auto 20px auto;
+width:486px;
+height:365px;
+}
+
+
+#content img.poster {
+margin:0 15px 0 25px;
+width:430px;
+height:341px;
+float:left;
+border:2px solid #000000;
+}
+
+/*#content img.poster:hover {
+border:2px solid #ee0000;
+}*/
+
+#coming h2 {
+color:#a99999;
+font-family:optima, futura, palatino, "trebuchet MS",  sans-serif;
+letter-spacing:-.5px;
+text-align:left;
+margin:0 0 25px 40px;
+}
+
+#dan_info {
+margin:0 0 0 0;
+padding:0 0 0 0;
+height:auto;
+width:100%;
+}
+
+#dan_info p {
+display:block;
+font-family:optima, futura, palatino, "trebuchet MS",  sans-serif;
+color:#a99999;
+font-size:1.5em;
+text-align:center;
+margin:10px 0 0 460px;
+}
+
+#dan_info img.theatresource {
+display:block;
+margin-bottom:65px;
+position:relative;
+top:20px;
+left:86px;
+}
+
+#playbill {
+margin:290px 0 20px 0;
+padding:0 0 0 0;
+height:auto;
+width:100%;
+}
+
+#playbill h2 {
+dislay:block;
+margin-left:auto;
+margin-right:auto;
+margin-top:0px;
+margin-bottom:0;
+/*font-family:"Mona Lisa Solid ITC TT";
+font-family:optima, futura, palatino, "trebuchet MS",  sans-serif;*/
+color:#dd1111;
+text-align:center;
+}
+
+#playbill p {
+display:block;
+font-family:optima, futura, palatino, "trebuchet MS",  sans-serif;
+color:#a88888;
+font-size:1.5em;
+text-align:center;
+margin:10px 0 0 0px;
+}
+
+#playbill h3 {
+color:#a88888;
+font-family:optima, futura, palatino, "trebuchet MS",  sans-serif;
+letter-spacing:-.5px;
+text-align:center;
+margin:20px 0 0 0;
+}

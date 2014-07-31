@@ -1,0 +1,691 @@
+html, body, div, span, applet, object, iframe,
+p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+@font-face {
+	font-family:"Mona Lisa Solid ITC TT";
+	src: url("/Mona Lisa Solid ITC TT.ttf");
+}
+
+a {
+cursor:hand;
+cursor:pointer;
+}
+
+.it {
+font-style:italic;
+}
+
+html {
+height:100%;
+width:100%;
+}
+
+body {
+/*background:url('/images/starbg4.jpg');*/
+background:#000000;
+}
+
+div {
+display:block;
+}
+
+#wrapper {
+position:relative;
+min-width:1000px;
+max-width:1000px;
+min-height:920px;
+width:100%;
+height:auto;
+margin:35px auto 25px auto;
+background:none;
+/*-webkit-box-shadow: 0px 0px 25px #700000; 
+   -moz-box-shadow: 0px 0px 25px #700000; 
+	    box-shadow: 0px 0px 25px #700000;*/
+}
+
+#header {
+width:100%;
+height:170px;
+overflow:hidden;
+background-color:#000000;
+background-image:url('../images/sasHeader1.jpg');
+border-bottom:1px solid rgba(180,50,50,0.5);
+}
+
+a.headLink {
+display:block;
+width:650px;
+height:169px;
+}
+
+#header h1 {
+display:none;
+}
+
+div.addthis {
+position:absolute;
+top:-25px;
+right:-5px;
+margin:0;
+width:105px;
+height:20px;
+}
+
+.clearFloat {
+clear:both; 
+margin:0;
+padding:0;
+}
+
+  
+/* Body */
+
+#main {
+/*padding-top:50px;*/
+width:100%;
+background-color:none;
+}
+
+div.contentFull {
+width:100%;
+height:525px;
+background:#000000;
+border-bottom:1px solid #500000;
+font-family:futura, optima, "Mona Lisa Solid ITC TT", sans-serif;
+color:#c00000;
+text-align:center;
+}
+
+div.contentFullhome {
+width:100%;
+height:500px;
+padding-top:20px;
+background-color:#000000;
+border-bottom:1px solid #500000;
+font-family:futura, optima, "Mona Lisa Solid ITC TT", sans-serif;
+color:#900000;
+text-align:center;
+}
+
+div.contentFullhome h1 {
+font-size:2em;
+font-family:futura, optima, "Mona Lisa Solid ITC TT", sans-serif;
+color:#aaaa00;
+}
+
+div.contentFullhome h2 {
+font-size:1.5em;
+font-family:futura, optima, "Mona Lisa Solid ITC TT", sans-serif;
+color:#aaaa00;
+}
+
+.land1 {
+font-size:2em;
+font-family:futura, optima, "Mona Lisa Solid ITC TT", sans-serif;
+color:#a00000;
+}
+
+.land2 {
+font-size:1.5em;
+font-family:futura, optima, "Mona Lisa Solid ITC TT", sans-serif;
+color:#900000;
+}
+
+div.contentFullhome h2 {
+font-size:1.5em;
+font-family:futura, optima, "Mona Lisa Solid ITC TT", sans-serif;
+color:#900000;
+}
+
+div.contentFull1 {
+float:left;
+width:60%;
+height:475px;
+padding-top:15px;
+padding-bottom:15px;
+background:#000000;
+font-family:futura, optima, "Mona Lisa Solid ITC TT", sans-serif;
+color:#c00000;
+/*border-bottom:2px solid #500000;*/
+}
+
+div.contentFull2 {
+float:right;
+padding-top:15px;
+padding-bottom:15px;
+width:40%;
+height:475px;
+background:#000000;
+/*border-bottom:2px solid #500000;*/
+text-align:center;
+}
+
+div.contentFull2 h1{
+margin:0 0 0 0;
+padding:0;
+font-size:1.5em;
+font-family:futura, optima, "Mona Lisa Solid ITC TT", sans-serif;
+color:#c00000;
+}
+
+div.contentFull2 h2{
+margin:0 0 5px 0;
+padding:0;
+font-size:1em;
+font-family:futura, optima, "Mona Lisa Solid ITC TT", sans-serif;
+color:#a00000;
+}
+
+div.contentFull2 a{
+padding:0;
+font-family:futura, optima, "Mona Lisa Solid ITC TT", sans-serif;
+color:#c00000;
+font-size:1em;
+text-decoration:none;
+}
+
+div.contentFull2 a:hover{
+color:#e00000;
+}
+
+div.contentBottom {
+float:right;
+width:100%;
+height:180px;
+padding-top:10px;
+background:#000000;
+text-align:center;
+font-size:2em;
+font-family:futura, optima, "Mona Lisa Solid ITC TT", sans-serif;
+color:#900000;
+
+}
+
+div.contentTall {
+width:100%;
+height:300px;
+background:#000000;
+border-bottom:1px solid #500000;
+}
+
+div.content1 {
+width:100%;
+height:150px;
+background:#000000;
+border-bottom:1px solid #500000;
+}
+
+div.content2 {
+padding-top:10px;
+width:100%;
+height:300px;
+background:#000000;
+border-bottom:2px solid #500000;
+text-align:center;
+}
+
+div.content2 h1{
+font-size:3em;
+font-family:futura, optima, "Mona Lisa Solid ITC TT", sans-serif;
+color:#900000;
+}
+
+div.content2 a{
+font-family:futura, optima, "Mona Lisa Solid ITC TT", sans-serif;
+color:#a11111;
+font-size:1.5em;
+}
+
+div.content2 a:hover{
+color:#d33333;
+}
+
+#b {
+background:#111111;
+}
+
+#c {
+background:#cac5bb;
+}
+
+div.content1 img {
+width:100%;
+position:absolute;
+left:0;
+-webkit-transition:all .7s ease-in-out;
+   -moz-transition:all .7s ease-in-out;
+	 -o-transition:all .7s ease-in-out;
+		transition:all .7s ease-in-out;
+}
+
+div.content1 img.bottom {
+opacity:0;
+}
+
+div.content1:hover img.top{
+	opacity:0;
+}
+
+div.content1:hover img.bottom{
+	opacity:1;
+}
+
+div.contentTall img {
+width:100%;
+position:absolute;
+left:0;
+-webkit-transition:all .7s ease-in-out;
+   -moz-transition:all .7s ease-in-out;
+	 -o-transition:all .7s ease-in-out;
+		transition:all .7s ease-in-out;
+}
+
+div.contentTall img.bottom {
+opacity:0;
+}
+
+div.contentTall:hover img.top{
+	opacity:0;
+}
+
+div.contentTall:hover img.bottom{
+	opacity:1;
+}
+
+/*#content1:hover, #content2:hover, #content3:hover, #content4:hover {
+background:#feeeee;
+}*/
+
+a.contwin {
+display:block;
+width:100%;
+height:150px;
+background:none;
+border:none;
+}
+
+a.regs {
+font-size:1.25em;
+background:none;
+border:none;
+color:#a11111;
+}
+
+a.regs:hover {
+color:#d33333;
+}
+
+a.tix1 {
+width:50%;
+}
+
+a.contwinFull {
+display:block;
+width:100%;
+height:334px;
+background:none;
+border:none;
+}
+
+a.contwin1 {
+float:left;
+display:block;
+width:100%;
+height:150px;
+background:none;
+border:none;
+}
+
+a.contwin2 {
+float:right;
+display:block;
+width:500px;
+height:150px;
+background:none;
+border:none;
+}
+
+#content {
+position:relative;
+top:0;
+margin:0px 15px 15px 0;
+padding:5px 0 0 0;
+width:70%;
+min-height:650px;
+height:auto;
+border:1px solid #330000;
+background:none;
+-webkit-box-shadow: 0px 0px 20px #500000; 
+   -moz-box-shadow: 0px 0px 20px #500000; 
+	    box-shadow: 0px 0px 20px #500000;
+float:right;
+}
+
+#screen {
+position:relative;
+margin:0px 0 15px 15px;
+padding:5px 0 0 0;
+width:25%;
+min-height:650px;
+height:auto;
+border:1px solid #330000;
+background:none;
+-webkit-box-shadow: 0px 0px 15px #500000; 
+   -moz-box-shadow: 0px 0px 15px #500000; 
+		box-shadow: 0px 0px 15px #500000;
+float:left;
+}
+
+h1.screenhead {
+display:inline;
+margin-left:10px;
+margin-right:auto;
+font-size:1.5em;
+font-family:futura, optima, "Mona Lisa Solid ITC TT", sans-serif;
+color:#a99999;
+}
+
+.window {
+width: 225px;
+height:225px;
+margin:0 auto 0 auto;
+overflow: hidden; /*--Hides anything outside of the set width/height--*/
+position: relative;
+border:1px solid #500000;
+-webkit-box-shadow: 0 0 5px #5e3a3a;
+   -moz-box-shadow: 0 0 5px #5e3a3a;
+	    box-shadow: 0 0 5px #5e3a3a;
+}
+.image_reel {
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.image_reel img {float: left;}
+
+/*--Paging Styles--*/
+.paging {
+position: absolute;
+bottom: 7px;
+right: 7px;
+width: 50px;
+height:23px;
+z-index: 100; /*--Assures the paging stays on the top layer--*/
+text-align: center;
+line-height: 23px;
+background: #770000;
+opacity:.5;
+display: none; /*--Hidden by default, will be later shown with jQuery--*/
+}
+.paging a {
+padding: 2px;
+text-decoration: none;
+color:#ffffff;
+}
+.paging a.active {
+font-weight: bold;
+background: #920000;
+border: 1px solid #610000;
+-webkit-border-radius: 3px;
+ -khtml-border-radius: 3px;
+   -moz-border-radius: 3px;
+		border-radius: 3px;
+}
+.paging a:hover {font-weight: bold;}
+
+.paging:hover {opacity:1;}
+
+img.screen1 {
+display:block;
+position:relative;
+margin-right:auto;
+margin-left:auto;
+height:180px;
+width:225px;
+border:1px solid #500000;
+-webkit-box-shadow: 0 0 5px 1px #5e4a4a;
+   -moz-box-shadow: 0 0 5px 1px #5e4a4a;
+	    box-shadow: 0 0 5px 1px #5e4a4a;
+}
+
+img.screen2 {height:225px; width:225px;}
+
+img.screen3 {height:225px; width:225px;}
+
+img.screen4 {height:225px; width:225px;}
+
+#footer {
+position:absolute;
+margin:0 0 0 0;
+padding:0 0 0 0;
+height:30px;
+width:100%;
+background-color:#000000;
+-webkit-box-shadow:inset 0px 0px 5px #000000; 
+   -moz-box-shadow:inset 0px 0px 5px #000000; 
+		box-shadow:inset 0px 0px 5px #000000;
+bottom:0;
+z-index:100;
+}
+
+#footer p.sas {
+margin:0 0 0 5px;
+line-height:30px;
+font-family:futura, optima, "Mona Lisa Solid ITC TT", sans-serif;
+color:#700000;
+text-align:left;
+}
+
+/* Navigation */
+#navBG {
+width:100%;
+height:68px;
+background:#700000;
+}
+
+#navMenu {
+position:absolute;
+top:174px;
+right:2px;
+height:60px;
+background:#000000;
+border-top:1px dashed #330000;
+border-bottom:1px dashed #330000;
+}
+
+#navMenu ul.topmenu {
+margin:0;
+padding:0;
+}
+
+#navMenu li {
+margin:0;
+padding:0;
+width:165px;
+height:60px;
+float:left;
+list-style:none;
+position:relative;
+background-color:#000000;
+border-left:1px dashed #210000;
+}
+ 
+#navMenu li.current_page {
+background-image: -webkit-gradient(linear, left top, left bottom, from(#090909), to(#251e1e));
+background-image: -webkit-linear-gradient(top, #000000, #251e1e);
+background-image:    -moz-linear-gradient(top, #000000, #251e1e);
+background-image:     -ms-linear-gradient(top, #000000, #251e1e);
+background-image:      -o-linear-gradient(top, #000000, #251e1e);
+background-image:         linear-gradient(top, #000000, #251e1e);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#000000', EndColorStr='#251e1e');
+}
+
+#navMenu li.current_page a {
+color:#caaaaa;
+}
+
+#navMenu ul ul li.ddtop {
+margin:0 0 0 0;
+border-left:none;
+border-top:5px solid rgba(180,50,50,0.3);
+}
+
+#navMenu ul ul li {
+background-color:rgba(25,20,20,1);
+margin:0 0 0 0;
+border-left:none;
+height:0px;
+width:165px;
+}
+
+  
+#navMenu ul li a {
+text-align:center; 
+height:60px;
+width:165px;
+display:block;
+line-height:60px;
+font-family:futura, palatino, "trebuchet MS",  sans-serif;
+font-weight:light;
+font-size:1em;
+letter-spacing:-.5px;
+text-decoration:none;
+text-transform:uppercase;
+/*color:#B49678;*/
+color:#977777;
+}
+ 
+#navMenu ul ul li a {
+font-size:0em;
+height:0px;
+line-height:0px;
+width:165px;
+}
+
+ /*********************************************/
+ /* hide menu and allow it to return */
+ /*********************************************/
+
+#navMenu ul ul {
+position:absolute;
+top:59px;
+margin:0 0 0 0;
+opacity:0;
+float:right;
+height:0;
+line-height:0;
+}
+
+#navMenu ul li:hover ul {
+margin:1px 0 0 0;
+opacity:1;
+line-height:30px;
+z-index:9999;
+}
+
+span.arrow {
+font-size:.5em;
+color:#977777;
+}
+
+#navMenu ul li:hover span.arrow {
+color:#caaaaa;
+}
+ 
+#navMenu ul li:hover ul li {
+width:165px;
+height:30px;
+-webkit-transition:all .3s ease-in-out;
+   -moz-transition:all .3s ease-in-out;
+	 -o-transition:all .3s ease-in-out;
+		transition:all .3s ease-in-out;
+}
+ 
+#navMenu ul li ul li:hover {
+background:#211010;
+}
+ 
+#navMenu ul li:hover ul li a {
+padding-left:15px;
+width:120px;
+height:30px;
+line-height:30px;
+font-size:.7em;
+text-align:left;
+-webkit-transition:all .1s ease-in-out;
+   -moz-transition:all .1s ease-in-out;
+	 -o-transition:all .1s ease-in-out;
+		transition:all .1s ease-in-out;
+}
+  /**********************************************/
+
+/*sets top level hover color*/
+
+
+#navMenu li.reg:hover {
+background-image: -webkit-gradient(linear, left top, left bottom, from(#090909), to(#251e1e)); /* Saf4+, Chrome */
+background-image: -webkit-linear-gradient(top, #000000, #251e1e); /* Chrome 10+, Saf5.1+, iOS 5+ */
+background-image:    -moz-linear-gradient(top, #000000, #251e1e); /* FF3.6 */
+background-image:     -ms-linear-gradient(top, #000000, #251e1e); /* IE10 */
+background-image:      -o-linear-gradient(top, #000000, #251e1e); /* Opera 11.10+ */
+background-image:         linear-gradient(top, #000000, #251e1e);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#000000', EndColorStr='#251e1e'); /* IE6-IE9 */
+}
+
+/* Changes text color on hover for main menu hover */
+
+#navMenu li.reg:hover a {
+color:#caaaaa;
+}
+ 
+#navMenu li.current_page:hover a {
+color:#caaaaa;
+}
+ 
+ 
+#navMenu li.current_page a:hover {
+color:#caaaaa;
+}
+
+#navMenu li.current_page a:hover a.dropdown {   
+color:#ff0000;
+}
+
+#navMenu ul li:hover ul li a:hover {
+background:#200000;
+padding-left:45px;
+-webkit-border-radius:5px;
+   -moz-border-radius:5px;
+	 -o-border-radius:5px;
+		border-radius:5px;
+-webkit-transition:all .2s ease-in-out;
+   -moz-transition:all .2s ease-in-out;
+	 -o-transition:all .2s ease-in-out;
+		transition:all .2s ease-in-out;
+}
+  
+ /* End Navigation */ 

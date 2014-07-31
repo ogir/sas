@@ -1,0 +1,61 @@
+#content {
+position:relative;
+margin:0 50px 15px 50px;
+padding-top:20px;
+padding-bottom:50px;
+height:auto;
+min-height:1280px;
+width:90%;
+background:none;
+}
+
+#content h1 {
+dislay:block;
+margin-left:auto;
+margin-right:auto;
+margin-top:0px;
+font-size:2em;
+color:#dd1111;
+font-family:"Mona Lisa Solid ITC TT";
+/*font-family:optima, futura, palatino, "trebuchet MS",  sans-serif;*/color:#dd1111;
+text-align:center;
+}
+
+#content p {
+dislay:block;
+margin-left:auto;
+margin-right:auto;
+margin-top:15px;
+font-family:optima, futura, palatino, "trebuchet MS",  sans-serif;
+color:#dd1111;
+text-align:center;
+}
+
+#content img.macgyver {
+display:block;
+margin-left:auto;
+margin-right:auto;
+margin-top:55px;
+width:356px;
+height:355px;
+border:1px solid #935300;
+}
+
+#content img.darkroom {
+display:block;
+margin-left:auto;
+margin-right:auto;
+width:352px;
+height:273px;
+border:1px solid #551111;
+}
+
+#content img.missed {
+display:block;
+margin-left:auto;
+margin-right:auto;
+margin-top:55px;
+width:356px;
+height:355px;
+border:1px solid #935300;
+}

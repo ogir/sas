@@ -1,0 +1,158 @@
+#content {
+background:none;
+position:relative;
+margin:0 50px 15px 50px;
+height:auto;
+width:90%;
+}
+
+#space {
+margin:0 0 0 0;
+padding:0 0 0 0;
+width:100%;
+-webkit-transform: perspective(500)
+                   translate3d(0px, 0px, 0px)
+                   scale3d(1, 1, 1)
+                   rotateX(30deg);
+-webkit-transform-style: preserve-3d;
+			/*-webkit-transform-origin: 50% 50% 50%;*/
+
+-moz-transform: perspective(500)
+                   translate3d(0px, 0px, 0px)
+                   scale3d(1, 1, 1)
+                   rotate3d(10, 0, 0,30deg);
+-moz-transform-style: preserve-3d;
+			/*-moz-transform-origin: 50% 50% 50%;*/
+			
+-o-transform: perspective(500)
+                   translate3d(0px, 0px, 0px)
+                   scale3d(1, 1, 1)
+                   rotate3d(10, 0, 0,30deg);
+-o-transform-style: preserve-3d;
+			/*-webkit-transform-origin: 50% 50% 50%;*/			
+}
+
+
+#space h2.altered {
+margin:0 0 0 0;
+line-height:32px;
+text-align:center;
+-moz-transform:scaleX(0.9);
+-webkit-transform:scaleX(0.9);
+-o-transform:scaleX(0.9);
+font-family:optima, futura, palatino, "trebuchet MS", sans-serif;
+color:#dd1111;
+}
+
+#content p.about {
+position:relative;
+font-family:optima, futura, palatino, "trebuchet MS", sans-serif;
+width:600px;
+color:#a99999;
+font-size:1.1em;
+line-height:150%;
+margin-bottom:70px;
+top:20px;
+padding-left:110px;
+}
+
+#content img.eclipse {
+position:absolute;
+top:100;
+right:10px;
+width:394px;
+height:356px;
+border-bottom-left-radius: 200px;
+border-bottom-right-radius: 225px;
+border-top-left-radius: 180px;
+border-top-right-radius: 180px;
+    -moz-border-bottom-left-radius: 200px;
+	-moz-border-bottom-right-radius: 225px;
+	-moz-border-top-left-radius: 180px;
+	-moz-border-top-right-radius: 180p
+    -webkit-border-bottom-left-radius: 200px;
+	-webkit-border-bottom-right-radius: 225px;
+	-webkit-border-top-left-radius: 180px;
+	-webkit-border-top-right-radius: 180px;
+    -o-border-radius:180px;
+}
+
+
+#content h2.mission {
+position:relative;
+display:inline;
+margin:0 0 0 0;
+font-family:optima, futura, palatino, "trebuchet MS", sans-serif;
+color:#dd1111;
+text-align:left;
+top:20px;
+left:110px;
+}
+
+#content p {
+position:relative;
+font-family:optima, futura, palatino, "trebuchet MS", sans-serif;
+color:#a99999;
+font-size:1.1em;
+line-height:150%;
+width:600px;
+top:20px;
+padding-left:20px;
+}
+
+#warning {
+margin:0 45px 0 45px;
+padding:20px 0 0 0;
+width:90%;
+height:350px;
+border-top:1px solid #330000;
+background-color:#000000;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#211e1e), to(#000000)); /* Saf4+, Chrome */
+background-image: -webkit-linear-gradient(top, #211e1e, #000000); /* Chrome 10+, Saf5.1+, iOS 5+ */
+background-image:    -moz-linear-gradient(top, #211e1e, #000000); /* FF3.6 */
+background-image:     -ms-linear-gradient(top, #211e1e, #000000); /* IE10 */
+background-image:      -o-linear-gradient(top, #211e1e, #000000); /* Opera 11.10+ */
+background-image:         linear-gradient(top, #211e1e, #000000);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#211e1e', EndColorStr='#000000'); /* IE6-IE9 */
+}
+
+#warning h2.bold {
+margin:0 0 0 0;
+padding:0 0 0 0;
+font-family:optima, futura, palatino, "trebuchet MS", sans-serif;
+color:#dd0000;
+font-weight:bold;
+line-height:100%;
+text-align:center;
+text-transform:uppercase;
+}
+
+#warning p {
+font-family:optima, futura, palatino, "trebuchet MS", sans-serif;
+color:#a99999;
+font-size:1.68em;
+line-height:100%;
+text-align:center;
+width:100%;
+margin:0 0 0 0;
+padding:0 0 0 0;
+}
+
+span {
+font-family:optima, futura, palatino, "trebuchet MS", sans-serif;
+}
+
+span.bold {color:#dd0000; font-weight:bold; font-size:105%; margin-bottom:0px;}
+span.biggest {font-size:103%;}
+span.bigger {font-size:85.5%;}
+span.big {font-size:74%;}
+span.medium {font-size:65%; letter-spacing:.3px;}
+span.small {font-size:65%; letter-spacing:.5px;}
+span.smaller {font-size:49.5%; letter-spacing:1.5px;}
+span.smallest {font-size:39%;}
+span.tiny {font-size:30%;}
+span.teeny {font-size:23%;}
+span.toony {font-size:20.3%;}
+span.loony {font-size:16.7%;}
+span.stopit {font-size:10.5%;}
+span.bye {font-size:5.9%;}

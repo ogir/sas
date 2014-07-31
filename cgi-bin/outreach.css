@@ -1,0 +1,43 @@
+#content h1 {
+display:inline;
+margin-left:10px;
+margin-right:auto;
+font-family:futura, "Mona Lisa Solid ITC TT", sans-serif;
+/*font-family:optima, futura, palatino, "trebuchet MS",  sans-serif;*/
+color:#dd1111;
+font-size:2em;
+}
+
+h2 {
+color:#a99999;
+margin:0 0 0 15px;
+line-height:30px;
+}
+
+#content a {
+color:#a11111;
+margin:0 0 0 15px;
+font-size:1.2em;
+}
+
+#content a:hover {
+color:#d33333;
+}
+
+p.outreach {
+dislay:block;
+width:320px;
+margin-left:20px;
+margin-top:15px;
+font-family:optima, futura, palatino, "trebuchet MS",  sans-serif;
+color:#a99999;
+text-align:left;
+}
+
+img.eclipse {
+margin:20px 10px 0 0;
+width:340px;
+height:315px;
+float:right;
+border:1px solid #330000;
+}

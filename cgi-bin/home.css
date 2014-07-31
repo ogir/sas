@@ -1,0 +1,53 @@
+#content img.poster {
+margin-top:45px;
+margin-left:110px;
+margin-right:145px;
+width:500px;
+height:398px;
+/*transition:rotate .5s ease;
+-ms-transform:rotate(5deg);
+-ie-transform:rotate(5deg);
+transform: rotate(5deg);
+-moz-transform: rotate(5deg);
+-o-transform: rotate(5deg);
+-webkit-transform: rotate(5deg);*/
+/*-moz-transform-origin: 50% 0;
+-o-transform-origin: 50% 0;
+-webkit-transform-origin: 50% 0;
+-moz-transition: rotate .5s, -moz-transform .5s;
+-webkit-transition: .5s, -webkit-transform .5s;
+-o-transition: .5s, -o-transform .5s;*/
+border:2px solid #330000;
+}
+
+#content img.poster:hover {
+border:2px solid #990000;
+/*-moz-transform: rotate(0deg);
+-webkit-transform: rotate(0deg);
+-o-transform:rotate(0deg);
+-moz-transform-origin: 50% 0;
+-o-transform-origin: 50% 0;
+-webkit-transform-origin: 50% 0;*/
+}
+
+
+#content img.tix {
+margin:0 10px 0 20px;
+width:138px;
+height:53px;
+border-bottom:1px solid #330000;
+float:right;
+}
+
+#content img.tix:hover {
+border-bottom:1px solid #cc0000;
+}
+
+
+#content p.blurb {
+margin:25px 0 0 10px;
+font-family:optima, futura, palatino, "trebuchet MS",  sans-serif;
+color:rgba(180,150,120,1);
+font-size:1em;
+text-align:center;
+}
